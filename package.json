@@ -3,7 +3,7 @@
   "version": "1.5.1",
   "homepage": "http://code.shutterstock.com/rickshaw/",
   "dependencies": {
-    "d3": "~3.3.6"
+    "d3": "^3.5.9"
   },
   "repository": {
     "type": "git",
@@ -24,11 +24,11 @@
     "node": ">= 0.8.0"
   },
   "devDependencies": {
-    "jsdom": "~0.5.4",
-    "nodeunit": "~0.7.4",
-    "clean-css": "~0.10.2",
-    "uglify-js": "~2.2.5",
-    "jshint": "~1.1.0"
+    "jsdom": "~7.1.0",
+    "nodeunit": "~0.9.1",
+    "clean-css": "~3.4.8",
+    "uglify-js": "~2.6.1",
+    "jshint": "~2.9.1-rc1"
   },
   "scripts": {
     "test": "nodeunit tests"
